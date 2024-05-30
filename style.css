@@ -1,0 +1,11 @@
+#text {
+  padding: 150px 160px;
+  font-size: 90px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+#homeImage {
+  padding: 200px 100px;
+  float: right;
+}

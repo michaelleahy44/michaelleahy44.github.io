@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: lightgrey;
+  font-family: 'Courier New', Courier, monospace;
+  overflow-y: scroll;
+}
+  
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+  
+#name {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 40px 70px;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bolder;
+}
+  
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 50px 40px;
+  text-decoration: none;
+  font-size: 20px;
+}
+  
+li a:hover {
+  text-decoration: underline;
+}
+  
+.active {
+  font-weight: bolder;
+}
+
+.construction_message {
+  padding-top: 150px;
+  text-align: center;
+}
