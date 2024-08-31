@@ -7,50 +7,22 @@
     <title>Home</title>
     <link rel="stylesheet" href="navbar_style.css">
     <link rel="stylesheet" href="style.css">
-
+    <script src="script.js"></script>
 </head>
 <body>
-
-    <script>
-        /* Set the width of the sidebar to 250px (show it) */
-        function openNav() {
-            document.getElementById("mySidepanel").style.width = "100%";
-        }
-
-        /* Set the width of the sidebar to 0 (hide it) */
-        function closeNav() {
-            document.getElementById("mySidepanel").style.width = "0";
-        }
-    </script>
 
     <ul class="navbar">
         <li id="name" style="float: left;">michael leahy</li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="resume.html">Resume</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="about.html">About</a></li>
         <li class="active"><a href="#">Home</a></li>
     </ul>
 
     <div id="body">
-        <img id="homeImage" src="images/Snoopy_Peanuts.png" alt="me">
+        <img id="homeImage" src="images/IMG_6177.JPEG" alt="me">
         <h1 id="text">Hi! <br>My name's <br>Michael Leahy!</h1>
     </div>
-
-    <div>
-        <h2 id="page">Home</h2>
-    </div>
-
-    <div id="mySidepanel" class="sidepanel">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-        <a href="resume.html">Resume</a>
-        <a href="contact.html">Contact</a>
-    </div>
-
-    <button id="menuButton" onclick="openNav()">&#9776</button>
 
 </body>
 </html>

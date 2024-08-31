@@ -5,7 +5,13 @@
   line-height: 1.5;
 }
 
+#phoneText {
+  display: none;
+}
+
 #homeImage {
   padding: 200px 100px;
+  height: 403px;
+  width: 284px;
   float: right;
 }
