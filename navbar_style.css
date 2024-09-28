@@ -51,10 +51,6 @@ li a:hover {
   font-weight: bolder;
 }
 
-#button {
-  display: none;
-}
-
 .construction_message {
   padding-top: 150px;
   text-align: center;
@@ -66,7 +62,6 @@ li a:hover {
     margin: 0;
     background-color: lightgrey;
     font-family: 'Courier New', Courier, monospace;
-    overflow-y: scroll;
   }
 
   li {
@@ -90,59 +85,43 @@ li a:hover {
     font-weight: bolder;
   }
 
-  #pageTitle {
-    margin: 0;
-    padding: 10px 0px;
-    overflow: hidden;
-    background-color: gray;
-    position: fixed;
-    top: 90px;
-    left: 0;
-    width: 100%;
-    display: block;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bolder;
-  }
-
   #menuButton {
     position: fixed;
     top: 5%;
     left: 90%
   }
 
-    /* The sidepanel menu */
+  /* The sidepanel menu */
   .sidepanel {
-    height: 100%; /* Specify a height */
+    height: 250px; /* Specify a height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
     top: 0;
     left: 0;
-    background-color: #111; /* Black*/
+    background-color: #fff; /* grey*/
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
   }
-  
+
   /* The sidepanel links */
   .sidepanel a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    text-align: center;
-    color: #818181;
+    color: black;
     display: block;
     transition: 0.3s;
+    text-align: center;
   }
-  
+
   /* When you mouse over the navigation links, change their color */
   .sidepanel a:hover {
-    color: #f1f1f1;
+
+    text-decoration: underline;
   }
-  
+
   /* Position and style the close button (top right corner) */
   .sidepanel .closebtn {
     position: absolute;
@@ -151,23 +130,17 @@ li a:hover {
     font-size: 36px;
     margin-left: 50px;
   }
-  
+
   /* Style the button that is used to open the sidepanel */
-  #menuButton {
+  .openbtn {
+    position: relative;
+    left: 90%;
     font-size: 20px;
     cursor: pointer;
-    background-color: #111;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 15px;
     border: none;
-  }
-  
-  .openbtn:hover {
-    background-color: #444;
-  }
-
-  .active {
-    font-weight: bolder;
   }
 }
 
