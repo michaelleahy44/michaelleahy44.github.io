@@ -7,7 +7,7 @@ body {
     padding: 30px 50px 0px 50px;
 }
 
-video {
+.animations {
     padding: 0;
     position: relative;
     top: 15px
